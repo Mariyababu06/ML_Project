@@ -1,0 +1,8 @@
+# Make sure requirements.txt has proper content
+@"
+pandas
+numpy
+seaborn
+scikit-learn
+matplotlib
+"@ | Out-File -FilePath requirements.txt -Encoding utf8
